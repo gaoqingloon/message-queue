@@ -1,0 +1,32 @@
+mqtt:
+  consumers:
+  - id: test
+    client-id: test-consumer
+    url: tcp://10.0.0.102:1883
+    password: password
+    username: admin
+    payload-as-bytes: true
+    topics:
+      - topic: test
+        qos: 0
+    message-handler: com.bigdata.mqtt.test.CustomMessageHandler
+  
+  - id: ssl
+    client-id: ssl-consumer
+    url: ssl://10.0.0.102:8883
+    password: password
+    username: admin
+    topics:
+    - topic: ssl
+      qos: 1
+    message-handler: com.bigdata.mqtt.test.CustomMessageHandler
+    ssl-enable: true
+    ssl:
+      ca-file: F:\ssl\re-ssl\ca.crt
+      client-file: F:\ssl\re-ssl\client.crt
+      key-file: F:\ssl\re-ssl\client.key
+      password: 123456
+    
+    
+server:
+  port: 8081   

@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "mqtt",
+      "type": "com.bigdata.mqtt.producer.MqttProducerProperties",
+      "sourceType": "com.bigdata.mqtt.producer.MqttProducerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mqtt.producers",
+      "type": "java.util.List<com.bigdata.mqtt.producer.MqttProducerProperties$Producer>",
+      "sourceType": "com.bigdata.mqtt.producer.MqttProducerProperties"
+    }
+  ],
+  "hints": []
+}

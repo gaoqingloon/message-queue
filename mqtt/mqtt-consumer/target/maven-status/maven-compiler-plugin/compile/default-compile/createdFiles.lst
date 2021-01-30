@@ -1,0 +1,10 @@
+com\bigdata\mqtt\consumer\MqttConsumerProperties$Topic.class
+com\bigdata\mqtt\consumer\handler\MqttMessageHandlerFactory.class
+com\bigdata\mqtt\consumer\handler\DefaultMqttMessageHandler.class
+com\bigdata\mqtt\consumer\MqttConsumerProperties$Consumer.class
+com\bigdata\mqtt\consumer\MqttConsumerAutoConfiguration.class
+com\bigdata\mqtt\consumer\MqttConsumerProperties$SSLProperties.class
+com\bigdata\mqtt\consumer\MqttConsumerProperties.class
+com\bigdata\mqtt\consumer\MqttConsumerIntegrationManager.class
+META-INF\spring-configuration-metadata.json
+com\bigdata\mqtt\consumer\MqttConsumerManager.class

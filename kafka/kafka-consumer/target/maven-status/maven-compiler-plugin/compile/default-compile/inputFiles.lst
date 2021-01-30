@@ -1,0 +1,6 @@
+D:\myStudyProject\message-queue\kafka\kafka-consumer\src\main\java\com\bigdata\kafka\consumer\KafkaConsumerManager.java
+D:\myStudyProject\message-queue\kafka\kafka-consumer\src\main\java\com\bigdata\kafka\consumer\KafkaConsumerAutoConfiguration.java
+D:\myStudyProject\message-queue\kafka\kafka-consumer\src\main\java\com\bigdata\kafka\consumer\KafkaConsumerProperties.java
+D:\myStudyProject\message-queue\kafka\kafka-consumer\src\main\java\com\bigdata\kafka\consumer\listener\KafkaMessageListener.java
+D:\myStudyProject\message-queue\kafka\kafka-consumer\src\main\java\com\bigdata\kafka\consumer\KafkaConsumerContainerManager.java
+D:\myStudyProject\message-queue\kafka\kafka-consumer\src\main\java\com\bigdata\kafka\consumer\listener\KafkaMessageListenerFactory.java

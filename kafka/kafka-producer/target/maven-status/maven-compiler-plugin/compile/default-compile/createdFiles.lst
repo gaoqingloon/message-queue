@@ -1,0 +1,6 @@
+com\bigdata\kafka\producer\KafkaProducerAutoConfiguration.class
+com\bigdata\kafka\producer\KafkaProducerManager.class
+com\bigdata\kafka\producer\KafkaProducerTemplateManager.class
+com\bigdata\kafka\producer\KafkaProducerProperties$KafkaProducer.class
+com\bigdata\kafka\producer\KafkaProducerProperties.class
+META-INF\spring-configuration-metadata.json

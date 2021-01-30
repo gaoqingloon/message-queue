@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "kafka",
+      "type": "com.bigdata.kafka.producer.KafkaProducerProperties",
+      "sourceType": "com.bigdata.kafka.producer.KafkaProducerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "kafka.producers",
+      "type": "java.util.List<com.bigdata.kafka.producer.KafkaProducerProperties$KafkaProducer>",
+      "sourceType": "com.bigdata.kafka.producer.KafkaProducerProperties"
+    }
+  ],
+  "hints": []
+}

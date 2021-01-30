@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "mqtt",
+      "type": "com.bigdata.mqtt.consumer.MqttConsumerProperties",
+      "sourceType": "com.bigdata.mqtt.consumer.MqttConsumerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mqtt.consumers",
+      "type": "java.util.List<com.bigdata.mqtt.consumer.MqttConsumerProperties$Consumer>",
+      "sourceType": "com.bigdata.mqtt.consumer.MqttConsumerProperties"
+    }
+  ],
+  "hints": []
+}

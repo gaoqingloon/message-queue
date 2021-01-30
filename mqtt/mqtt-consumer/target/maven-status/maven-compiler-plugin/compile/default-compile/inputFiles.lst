@@ -1,0 +1,6 @@
+D:\myStudyProject\message-queue\mqtt\mqtt-consumer\src\main\java\com\bigdata\mqtt\consumer\MqttConsumerProperties.java
+D:\myStudyProject\message-queue\mqtt\mqtt-consumer\src\main\java\com\bigdata\mqtt\consumer\MqttConsumerManager.java
+D:\myStudyProject\message-queue\mqtt\mqtt-consumer\src\main\java\com\bigdata\mqtt\consumer\handler\DefaultMqttMessageHandler.java
+D:\myStudyProject\message-queue\mqtt\mqtt-consumer\src\main\java\com\bigdata\mqtt\consumer\handler\MqttMessageHandlerFactory.java
+D:\myStudyProject\message-queue\mqtt\mqtt-consumer\src\main\java\com\bigdata\mqtt\consumer\MqttConsumerAutoConfiguration.java
+D:\myStudyProject\message-queue\mqtt\mqtt-consumer\src\main\java\com\bigdata\mqtt\consumer\MqttConsumerIntegrationManager.java

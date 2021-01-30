@@ -1,0 +1,12 @@
+kafka:
+  producers:
+    - id: test
+      servers: 10.0.0.102:9092
+      retries: 10
+      batch-size: 4096
+      linger: 1
+      buffer-memory: 40960
+      acks: 1
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      

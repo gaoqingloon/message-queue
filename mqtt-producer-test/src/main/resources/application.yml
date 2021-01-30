@@ -1,0 +1,13 @@
+mqtt:
+  producers:
+  - id: test
+    client-id: test
+    username: admin
+    password: password
+    url: ssl://10.0.0.102:8883
+    ssl-enable: true
+    ssl:
+      ca-file: F:/ssl/re-ssl/ca.crt
+      client-file: F:/ssl/re-ssl/client.crt
+      key-file: F:/ssl/re-ssl/client.key
+      password: 123456

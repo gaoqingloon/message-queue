@@ -1,0 +1,26 @@
+kafka:
+  consumers:
+    - id: test
+      servers: 10.0.0.102:9092
+      enable-auto-commit: true
+      auto-commit-interval: 100
+      auto-offset-reset: latest
+      group-id: consumer-test
+      concurrency: 3
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
+      session-timeout: 6000
+      topics:
+      - test
+      message-listener: com.bigdata.kafka.consumer.test.SingleMessageListener
+#    - id: test1
+#      servers: 10.40.2.21:9092
+#      enable-auto-commit: true
+#      group-id: consumer-test-1
+#      concurrency: 3
+#      topics:
+#      - hello
+#      message-listener: com.bigdata.kafka.consumer.test.SingleMessageListener
+      
+server:
+  port: 8081

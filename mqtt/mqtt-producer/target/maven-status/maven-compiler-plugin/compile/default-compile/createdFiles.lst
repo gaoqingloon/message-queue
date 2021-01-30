@@ -1,0 +1,9 @@
+com\bigdata\mqtt\producer\MqttProducerIntegrationManager.class
+com\bigdata\mqtt\producer\MqttProducerProperties.class
+com\bigdata\mqtt\producer\MqttProducerManager.class
+com\bigdata\mqtt\producer\MqttMessageTemplate.class
+com\bigdata\mqtt\producer\MqttProducerProperties$Producer.class
+com\bigdata\mqtt\producer\MqttProducerProperties$SSLProperties.class
+com\bigdata\mqtt\producer\MqttProducerAutoConfiguration.class
+META-INF\spring-configuration-metadata.json
+com\bigdata\mqtt\producer\utils\MqttProducerConstans.class

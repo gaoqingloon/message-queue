@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "kafka",
+      "type": "com.bigdata.kafka.consumer.KafkaConsumerProperties",
+      "sourceType": "com.bigdata.kafka.consumer.KafkaConsumerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "kafka.consumers",
+      "type": "java.util.List<com.bigdata.kafka.consumer.KafkaConsumerProperties$KafkaConsumer>",
+      "sourceType": "com.bigdata.kafka.consumer.KafkaConsumerProperties"
+    }
+  ],
+  "hints": []
+}

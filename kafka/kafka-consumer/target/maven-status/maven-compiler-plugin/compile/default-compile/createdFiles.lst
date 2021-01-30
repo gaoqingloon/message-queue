@@ -1,0 +1,8 @@
+com\bigdata\kafka\consumer\listener\KafkaMessageListener.class
+com\bigdata\kafka\consumer\KafkaConsumerManager.class
+com\bigdata\kafka\consumer\KafkaConsumerAutoConfiguration.class
+com\bigdata\kafka\consumer\KafkaConsumerContainerManager.class
+com\bigdata\kafka\consumer\KafkaConsumerProperties.class
+com\bigdata\kafka\consumer\listener\KafkaMessageListenerFactory.class
+com\bigdata\kafka\consumer\KafkaConsumerProperties$KafkaConsumer.class
+META-INF\spring-configuration-metadata.json

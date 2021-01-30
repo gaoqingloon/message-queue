@@ -1,0 +1,29 @@
+mqtt:
+  consumers:
+  - id: test
+    client-id: test-consumer
+    url: tcp://10.0.0.102:1883
+    password: password
+    username: admin
+    topics:
+    - topic: test
+      qos: 0
+    message-handler: com.bigdata.distribute.demo.mqtt.MqttMessageHandler
+    
+kafka:
+  producers:
+  - id: test-kafka
+    servers: 10.0.0.102:9092
+    acks: 1
+    retries: 10
+    batch-size: 4096
+    linger: 1
+    buffer-memory: 40960
+    key-serializer: org.apache.kafka.common.serialization.StringSerializer
+    value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      
+distribute:
+  endpoints:
+  - path: test[0-9]
+    matcher: regex
+    endpoint-class: com.bigdata.distribute.demo.kafka.PrintEndPoint
